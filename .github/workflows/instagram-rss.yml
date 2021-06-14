@@ -1,7 +1,5 @@
 name: RSS
-• on:
-    schedule:
-      - cron: "0 17 * * *"
+• on: [workflow_dispatch]
 
   jobs:
     generate_rss:
